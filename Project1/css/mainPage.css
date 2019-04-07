@@ -1,0 +1,22 @@
+body {
+	margin: 0;
+	padding: 0;
+	/*background-image: url(images/IMG_20160707_122057.jpg);*/
+}
+
+#fotka_one{
+	width: 100%;
+	height: 100%;
+	background: 
+    /* используется только один цвет */ 
+    linear-gradient(
+      rgba(255, 0, 0, 0.45), 
+      rgba(255, 0, 0, 0.45)
+    ),
+    /* под градиентом, изображение */
+    url(image.jpg);
+}
+
+.img_news_one{
+	width: 100%
+}
